@@ -1,0 +1,30 @@
+
+    * {
+        margin :0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html,  body, #root {
+        max-height : 100vh;
+        max-width: 100vw;
+        background-color: #f2f2f2;
+
+
+        width: 100%;
+        height: 100%;
+
+    }
+    *, button, input {
+        border: 0;
+        background: none;
+        font-family: -apple-system, system-ui, BlinkMaxSystemFont, 'Segoe UI', Reboto, 'Helvetica Neue' , sans-serif;
+    }
+    .container{
+        margin: 80px auto;
+        max-width: 450px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+      }
